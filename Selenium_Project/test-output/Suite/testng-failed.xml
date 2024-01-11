@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="CrossBrowserTesting_01.Lakme_01">
+        <methods>
+          <include name="lakme"/>
+        </methods>
+      </class> <!-- CrossBrowserTesting_01.Lakme_01 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="CrossBrowserTesting_01.Lakme_01">
+        <methods>
+          <include name="lakme"/>
+        </methods>
+      </class> <!-- CrossBrowserTesting_01.Lakme_01 -->
+      <class name="CrossBrowserTesting_01.Ponds_01">
+        <methods>
+          <include name="ponds" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowserTesting_01.Ponds_01 -->
+      <class name="CrossBrowserTesting_01.MamaEarth_1">
+        <methods>
+          <include name="mamaearth" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowserTesting_01.MamaEarth_1 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

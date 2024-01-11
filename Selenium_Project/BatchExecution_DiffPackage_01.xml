@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="4" name="Test" parallel="classes">
+    <classes>
+      <class name="Brands_BatchExecution_01.Boat_01"/>
+      <class name="Brands_BatchExecution_01.Mi_01"/>
+      <class name="Testng_Programs_13_12_2023.MutipleDependencyProgram_01"/>
+      <class name="Brands_BatchExecution_01.Fastrack_01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

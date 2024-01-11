@@ -1,0 +1,7 @@
+send("C:\Users\Lenovo\OneDrive\Desktop\java tyss\JavaNotes.docx")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{ENTER}")
